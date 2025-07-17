@@ -1,0 +1,99 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  background: #f9f7f1;
+  color: #333;
+}
+
+header {
+  background: #8fb339;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 1rem;
+}
+
+.hero {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.flex-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+.flex-section img {
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 0.5rem;
+  text-align: left;
+}
+
+ul {
+  list-style: square inside;
+  padding-left: 0;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+
+@media (max-width: 768px) {
+  .flex-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+}
+
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 1rem auto;
+  max-height: 400px; /* limit tall images */
+}
+
